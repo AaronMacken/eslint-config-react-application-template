@@ -8,15 +8,13 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:jest/recommended',
   ],
-  parserOptions: {
-    project: './tsconfig.json',
-  },
   settings: {
     react: {
       version: 'detect',
     },
   },
   rules: {
+    'no-plusplus': 'off',
     'prettier/prettier': 'warn',
     '@typescript-eslint/no-unused-vars': 'warn',
     'react/react-in-jsx-scope': 'off',
@@ -30,16 +28,7 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': ['error', { assert: 'either' }],
     'react/jsx-props-no-spreading': 'off',
     'for-direction': 'off',
-    'no-plusplus': 'off',
     'lines-between-class-members': 'off',
     '@typescript-eslint/lines-between-class-members': 'off',
   },
-  overrides: [
-    {
-      files: ['webpack.**.js', 'paths.js', 'jest.config.js', 'jest.setup.ts'],
-      parserOptions: {
-        project: null,
-      },
-    },
-  ],
 };
