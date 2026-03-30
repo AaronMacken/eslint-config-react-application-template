@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-react-application-template",
-  "version": "1.0.0",
+  "name": "@aaronmacken/eslint-config-react-application-template",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
@@ -38,5 +38,8 @@
     "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^4.6.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
