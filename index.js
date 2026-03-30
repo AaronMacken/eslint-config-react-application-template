@@ -14,7 +14,7 @@ module.exports = {
     },
   },
   rules: {
-    'no-plusplus': 'error',
+    'no-plusplus': 'off',
     'prettier/prettier': 'warn',
     '@typescript-eslint/no-unused-vars': 'warn',
     'react/react-in-jsx-scope': 'off',
